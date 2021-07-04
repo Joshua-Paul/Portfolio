@@ -1,0 +1,390 @@
+body{
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:#fff;
+  line-height: 1.5;
+  font-family: 'Viaoda Libre', cursive;
+  transition: 2s ease;
+}
+.space-3{
+  display: none;
+}
+.button-2{
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+h2{
+  margin-bottom: 2rem;
+}
+hr{
+  height: 3px;
+  border: none;
+  background-color: #DA0037;
+  margin-top: 0;
+  }
+.hr-2{
+  width: 200px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color: #ff7171;
+  cursor: pointer;
+}
+a:active, a:focus {
+  color: #ff7171;
+}
+.button{
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  margin-left: 30%;
+  border-radius: 15px;
+  border-color: grey;
+  background-color: #DA0037;
+  font-size: 20px;
+  font-family: 'Noto Serif', serif;
+  color: #fff;
+  box-shadow: 1px 1px 1px grey;
+}
+.button a:hover{
+  color:black;
+}
+.nav-bar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  font-size: 30px;
+  z-index: 10;
+}
+.head{
+  display: inline-block;
+  padding: 0 3rem;
+  font-family: gabriela;
+}
+.menu{
+  float: right;
+}
+.menu li{
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  width: 10rem;
+  float: right;
+}
+.page-1 , .page-2 , .page-3 , .page-4{
+  width: 100%;
+  height: 40rem;
+}
+.intro{
+  position: relative;
+  top: 140px;
+  left: 180px;
+  width: 400px;
+  font-family: 'Noto Serif', serif;
+}
+.name h1 , .self p{
+  margin:0;
+}
+.name , .about , .design , .touch{
+  font-size: 50px;
+  line-height: 1.2;
+}
+.self{
+  font-size: 30px;
+}
+.front{
+  display: inline-block;
+  float: right;
+  margin: 5rem 0;
+  position: relative;
+  width: 60%;
+  height: 70%;
+  background-image: url(images/front-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 40px;
+}
+.about {
+  font-family: 'Viaoda Libre', cursive;
+  position: relative;
+  left: 180px;
+  margin: 10rem auto;
+  display: inline-block;
+  width: auto;
+  font-size: 60px;
+}
+.about .button{
+  width: 270px;
+  height: 50px;
+  font-size: 30px;
+  margin: 0 15%;
+  background-color: inherit;
+}
+.about .button:hover{
+  background-color: #F4F6FF;
+  border-color: red;
+  box-shadow: 2px 2px 2px red;
+}
+.content-1{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  display: inline-block;
+  width: 40%;
+  margin: 10rem auto;
+  padding-right: 40px;
+  float: right;
+}
+.design{
+  font-family: 'Viaoda Libre', cursive;
+  display: inline-block;
+  width: auto;
+  font-size: 60px;
+  margin-left: 180px;
+  margin-top: 10rem;
+}
+.container{
+  display: inline-block;
+  position: absolute;
+  right: 7rem;
+  margin-top: 7rem;
+  text-align: center;
+  width: 30%;
+}
+.content-2 , .content-3{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  height: 12rem;
+  border-radius: 2rem;
+  border-left: 1px solid lightgrey;
+  box-shadow: 3px 3px lightgrey;
+}
+.touch{
+  margin-bottom: 20;
+  font-family: 'Viaoda Libre', cursive;
+  position: relative;
+  left: 180px;
+  margin: 4rem auto;
+  display: inline-block;
+  width: auto;
+  font-size: 60px;
+}
+.content-4 p{
+  padding: 60px 0 0 25px;
+  font-size: 30px;
+  font-family: 'Noto Serif', serif;
+  margin: 0;
+}
+.content-4 img{
+  width: 200px;
+  padding: 0;
+  margin:0;
+}
+.space{
+  display: inline-block;
+  float: right;
+  margin-top: 7em;
+  margin-right: 30px;
+  width: 40%;
+  height: 70%;
+  background-image: url(images/space-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 1000px){
+
+  .name, .about , .design , .touch{
+    font-size: 30px;
+    line-height: 1.2;
+    left: 120px;
+  }
+  .intro{
+    left: 120px;
+  }
+  .design{
+    margin-left: 120px;
+  }
+  hr{
+    height: 2px;
+    }
+  .hr-1{
+    width: 200px;
+    margin-left: 0;
+  }
+  .hr-2{
+    width:100px;
+    margin-left: 0;
+  }
+  .button{
+    margin-left: 25%;
+  }
+  .container{
+    right: 4rem;
+  }
+  .content-2 , .content-3{
+    font-size: 20px;
+    height: 8rem;
+}
+.head{
+  padding: 0 1rem;
+  font-size: 25px;
+}
+.menu{
+  font-size: 25px;
+}
+.menu li{
+  width: 8rem;
+}
+.page-1 ,.page-2, .page-3 , .page-4{
+  height: 600px;
+}
+.about .button{
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  margin: 0;
+}
+.content-1{
+  font-size: 18px;
+  display: inline-block;
+  width: 40%;
+  margin: 8rem 0;
+  padding-right: 20px;
+}
+.content-4{
+  font-size: 18px;
+}
+.space{
+  position: absolute;
+  right: 30px;
+  margin-top: 6rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+}
+@media only screen and (max-width: 605px){
+  .nav-bar{
+    position: absolute;
+  }
+  .head{
+    padding: 0 1rem;
+    font-size: 20px;
+  }
+  .intro{
+    left: 20px;
+    padding-top: 70px;
+    width: 90%;
+  }
+  .self{
+    font-size: 20px;
+  }
+  .design{
+    margin-left: 0;
+  }
+  .menu, .front ,.space {
+    display: none;
+  }
+  .page-1 ,.page-2, .page-3 , .page-4{
+    display: block;
+    height: 500px;
+    padding-right: 0;
+    text-align: center;
+    left: 0;
+    margin-bottom: 30px;
+  }
+  .page-1, .page-4{
+    height: 600px;
+  }
+  .name, .about , .design , .touch{
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .about {
+    left: 0;
+    margin-bottom: 0;
+  }
+  .about h2, .design h2, .touch h2{
+    margin-bottom: 10px;
+  }
+  .hr-1{
+    width:200px;
+    margin:auto;
+  }
+  .hr-2{
+    width:100px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .button-1{
+    display: none;
+  }
+  .content-1{
+    display: inline;
+    padding: 0;
+    width: 90%;
+    font-size: 18px;
+    margin: 0 30px 0 0;
+    text-align: center;
+  }
+  .button-2{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin: auto;
+  }
+  .about , .design ,.content-2, .content-3, .touch , .content-4 ,.container{
+    display: block;
+    width: 100%;
+  }
+  .container{
+    right: 0;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  .content-2, .content-3{
+    margin:auto;
+    width: 200px;
+  }
+  .content-2 h3, .content-3 h3{
+    padding-top: 10px;
+  }
+  .touch{
+    position: inherit;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+  .content-4{
+    padding-top: 100px;
+  }
+  .content-4 p{
+    padding: 60px 0 0 0;
+    font-size: 16px;
+  }
+  .content-4 img{
+    width: 150px;
+    padding-bottom: 10px;
+  }
+  .space-3{
+    display: inline-block;
+    margin-top: 0;
+    width: 40%;
+    height:20%;
+    background-image: url(images/space-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+  }
+}
