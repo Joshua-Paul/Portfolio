@@ -1,11 +1,11 @@
 body{
-  height: 100vh;
   line-height: 1.5;
   font-family: 'Playfair Display', serif;
   background-image: url("images/background-3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  overflow: hidden;
 }
 .notyet{
   display: none;
