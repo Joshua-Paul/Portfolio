@@ -1,5 +1,5 @@
 body{
-  margin:0;
+  height: 100vh;
   background-image: url('images/background-6.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,7 +13,6 @@ a{
   font-size: 30px;
 }
 h1{
-  margin: 0;
   padding-top: 30px;
   font-size: 150px;
   color: #125D98;
@@ -154,7 +153,6 @@ h2{
     margin:0;
     padding: 40px 0 10px 20%;
   }
-
   .prev, .next {
     bottom: 260px;
   }
